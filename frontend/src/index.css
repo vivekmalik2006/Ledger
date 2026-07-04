@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Newsreader", Georgia, serif;
+  --font-sans: "Space Grotesk", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  --color-background: #14161c;
+  --color-on-background: #e8e6df;
+  --color-surface-container: #1d1f26;
+  --color-surface-container-high: #282a30;
+  --color-surface-container-highest: #33353b;
+  --color-outline-variant: #474741;
+
+  --color-secondary: #d99a4e;   /* amber — acted / advocate */
+  --color-reviewer: #6b93b8;    /* blue — reviewer / paused */
+  --color-negotiate: #5fa8a0;   /* teal — negotiated fallback */
+  --color-declined: #c1666b;    /* clay — declined */
+}
+
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #14161c; }
+::-webkit-scrollbar-thumb { background: #2b2f3a; border-radius: 2px; }
+::-webkit-scrollbar-thumb:hover { background: #919189; }
+
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
