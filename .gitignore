@@ -1,0 +1,26 @@
+# Environment
+.env
+*.db
+ledger.db
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+venv/
+.venv/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Build artifacts
+*.pdf
+*.pptx
