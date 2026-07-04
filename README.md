@@ -38,8 +38,7 @@ is in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
 
 ## Compliance positioning
 
-At a SEBI-hosted hackathon, this is the part that matters most. Short
-version: Ledger is not an investment adviser — it executes rules the
+Ledger is not an investment adviser — it executes rules the
 customer pre-authorized, the same legal shape as a standing instruction.
 Full reasoning in [`docs/COMPLIANCE.md`](docs/COMPLIANCE.md).
 
